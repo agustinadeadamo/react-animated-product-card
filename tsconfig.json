@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
+    "moduleResolution": "node",
     "target": "ES5",
     "module": "ESNext",
     "jsx": "react",
     "declaration": true,
-    "outDir": "./dist",
+    "outDir": "./lib",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true
