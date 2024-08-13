@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
-    "moduleResolution": "node",
+    "moduleResolution": "nodenext", // try "nodenext"
     "target": "ES5",
-    "module": "ESNext",
+    "module": "NodeNext",
     "jsx": "react",
     "declaration": true,
-    "outDir": "./lib",
+    "outDir": "./dist",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true

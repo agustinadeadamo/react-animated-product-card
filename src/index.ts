@@ -1,1 +1,1 @@
-export { default as MyComponent } from './components/ProductCard';
+export { default as ProductCard } from './components/ProductCard';

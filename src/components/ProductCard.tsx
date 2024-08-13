@@ -1,8 +1,7 @@
 import React from 'react';
 import { gsap } from 'gsap';
 
-// Initial component to test
-const MyComponent: React.FC = () => {
+const ProductCard: React.FC = () => {
   const handleClick = () => {
     gsap.to('.box', { duration: 2, x: 100 });
   };
@@ -14,4 +13,4 @@ const MyComponent: React.FC = () => {
   );
 };
 
-export default MyComponent;
+export default ProductCard;
