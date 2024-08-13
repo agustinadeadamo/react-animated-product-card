@@ -1,6 +1,7 @@
 import React from 'react';
 import { gsap } from 'gsap';
 
+// Initial component to test
 const MyComponent: React.FC = () => {
   const handleClick = () => {
     gsap.to('.box', { duration: 2, x: 100 });
